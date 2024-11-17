@@ -1,4 +1,3 @@
 # geo/__init__.py
-"""
-This is the initialization file for the 'geo' package.
-"""
+_init_py 
+_all_ = ['pythagoras', 'circle'l
