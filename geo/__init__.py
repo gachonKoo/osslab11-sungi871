@@ -1,3 +1,3 @@
 # geo/__init__.py
 _init_py 
-_all_ = ['pythagoras', 'circle'l
+__all__ = ['pythagoras', 'circle'l
