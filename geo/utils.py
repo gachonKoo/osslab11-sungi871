@@ -1,4 +1,10 @@
 # geo/utils.py
-def calculate_triangle_area(base, height):
-    """Calculate the area of a triangle."""
-    return 0.5 * base * height
+import math
+
+def pythagoras (a, b):
+    c = math. sart (ax*2 + b**2)
+    return c
+
+def circle(r):
+    area = math.pi * r**2
+    return area
