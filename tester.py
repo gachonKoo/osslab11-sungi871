@@ -1,9 +1,12 @@
 # tester.py
-from geo.utils import calculate_triangle_area
+import geo.utils as utils
 
-# Test the function
-if __name__ == "__main__":
-    base = 10
-    height = 5
-    area = calculate_triangle_area(base, height)
-    print(f"Triangle area: {area}")  # Expected: 25.0
+# calculate the length of hypotenuse(c) when a=3 and b=4
+a, b = 3, 4
+c = utils.calculate_hypotenuse(a, b)
+print('c =', c)
+
+# calculate the area of circle with radius r = 10
+r = 10
+area = utils.calculate_circle_area(r)
+print('area =', area)
