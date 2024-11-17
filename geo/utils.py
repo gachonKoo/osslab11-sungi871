@@ -2,7 +2,7 @@
 import math
 
 def pythagoras (a, b):
-    c = math. sㅂrt (a**2 + b**2)
+    c = math. sqrt (a**2 + b**2)
     return c
 
 def circle(r):
