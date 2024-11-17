@@ -1,4 +1,3 @@
-# tester.py
 import geo.utils as utils
 
 # calculate the length of hypotenuse(c) when a=3 and b=4
